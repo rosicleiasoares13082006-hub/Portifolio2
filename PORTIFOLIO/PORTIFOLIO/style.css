@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+body > h1 {
+    background-color: #17171d;
+    color: white;
+    padding: 20px 9%;
+}
+
+nav {
+    background-color: #17171d;
+    padding: 15px 9%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #3ee2da;
+}
+
+.sobre {
+    background-color: #17171d;
+    color: white;
+    padding: 70px 12%;
+    min-height: 250px;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.sobre h3 {
+    color: #3ee2da;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    font-size: 17px;
+    max-width: 450px;
+    line-height: 1.5;
+}
+
+.habilidades {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.habilidades h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.habilidades p {
+    font-size: 20px;
+    word-spacing: 20px;
+}
+
+.projetos {
+    background-color: white;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: #f0eff5;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h2 {
+    color: #3ee2da;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+
+    body > h1 {
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .sobre {
+        padding: 50px 8%;
+    }
+
+    .sobre h2 {
+        font-size: 27px;
+    }
+
+}
+
+.rodape {
+  background-color: #18181b; /* Mesmo fundo escuro do topo */
+  color: #e4e4e7;
+  text-align: center;
+  padding: 35px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid #27272a;
+}
+.rodape .copyright {
+  font-size: 14px;
+  color: #a1a1aa;
+  margin-bottom: 14px;
+}
+.rodape-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.rodape-contato a {
+  color: #e4e4e7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.rodape-contato a:hover {
+  color: #2dd4bf; 
+}
+.rodape-contato span {
+  color: #52525b;
+}
+.rodape .creditos {
+  font-size: 14px;
+  color: #a1a1aa;
+  margin: 0;
+}
+.rodape .creditos span {
+  color: #2dd4bf;
+  font-weight: bold;
+}
